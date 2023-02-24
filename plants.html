@@ -13,6 +13,26 @@
     integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
 </head>
 <body>
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <a class="navbar-brand" href="plants.html">Interesting Plants</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+    data-bs-target="#plantNavbarInformation" aria-controls="plantNavbarInformation" 
+    aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggle-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="plantNavbarInformation">
+        <ul class="navbar-nav mr-auto">
+         
+            <li class="nav-item">
+                <a class="nav-link" href="basic.html">basic </a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" href="advanced.html">advanced </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<br>
   <h1>Plants by Roshini Bikkina</h1>
   <div class="container">
     <div class="row">
@@ -36,7 +56,183 @@
     This is because the second row's divs are larger than the divs in the first row's col-sm-2 class because the second row uses the col-md class.
     The second row divs are stacked vertically by the browser as the screen size shrinks since they are too big to fit on a single row. 
     The first row divs are still contained inside the available space and are still arranged in a single row.</P>
- 
+    <div class = container></div>
+    <div>
+        <img src="Indianpink.jpg" alt="Indianpink" class="image-fluid" width="210px" height="140px">
+        <img src="Kaffirlily.jpg" alt="Kaffirlily" class="image-fluid" width="210px" height="140px">
+        <img src="Kangaroopaw.jpg" alt="Kangaroopaw" class="image-fluid" width="210px" height="140px">
+        </div>
+        <div class = container></div>
+        <div>
+      <br>
+            <br>
+            <image src="Indianpink.jpg"  class="img-thumbnail"  alt="Indianpink"  width="210px" height="140px">
+            <image src="Kaffirlily.jpg"  class="img-thumbnail" alt="Kaffirlily"  width="290px" height="140px">
+            <image src="Kangaroopaw.jpg"  class="img-thumbnail" alt="Kangaroopaw"width="210px" height="140px">
+        </div>
+   </div>
+   </div>
+   <table class="table"></table>
+  <div class="container-fluid">
+    <table class="table table-bordered table-hover">
+    <br>
+    <br>
+    <caption style="color: darkmagenta;">Table of lettered plant names, mountain names, and lake names</caption>
+    <thead>
+        <tr class="table-warning">
+            <th>Letter</th>
+            <th>Plant</th>
+            <th>Mountain</th>
+            <th>Lake</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr class="table-primary" >
+          <td style="background-color: pink;">b</td>
+          <td style="background-color: pink;" >Balloon Flower</td>
+          <td style="background-color: pink;">bear</td>
+          <td style="background-color: pink;">Baker Lake</td>
+        </tr>      
+      <tr class="table-info">
+        <td>I</td>
+        <td>Iris</td>
+        <td>ishpatina ridge</td>
+        <td>IJsselmeer</td>
+      </tr>
+      <tr class="table-warning">
+        <td style="background-color: rgb(193, 201, 225);">K </td>
+        <td style="background-color: rgb(193, 201, 225);">Kangaroo paw</td>
+        <td style="background-color: rgb(193, 201, 225);">kabru</td>
+        <td style="background-color: rgb(193, 201, 225);">Kivu</td>
+      </tr>
+      <tr class="table-success">
+        <td>K</td>
+        <td>Kaffir lily</td>
+        <td>kilimanjaro</td>
+        <td>Kizaki</td>
+      </tr>
+      <tr class="table-warning">
+        <td style="background-color: rgb(250, 251, 191);">I</td>
+        <td style="background-color: rgb(250, 251, 191);">Indian pink</td>
+        <td style="background-color:rgb(250, 251, 191);">ismoil somoni peak</td>
+        <td style="background-color: rgb(250, 251, 191);">Ihema</td>
+      </tr>
+      <tr class="table-dark">
+        <td>N</td>
+        <td>Nepeta</td>
+        <td>namamsan</td>
+        <td>Nagase</td>
+      </tr>
+    </tbody>
+  </table>
+  <label>BUTTONS</label>
+  <div class="btn">
+  <button type="button" class="btn btn-primary" >J</button>
+  <button type="button" class="btn btn-secondary" >I</button>
+  <button type="button" class="btn btn-danger" >N</button>
+  <button type="button"  class="btn btn-warning" >N</button>
+  <button type="button" class="btn btn-danger">E</button>
+  <button type="button" class="btn btn-success">S</button>
+  </div>
+  <br>
+  <label>BUTTON GROUP  : </label>
+  <div class="container btn-toolbar">
+    <div class="btn-group" role="group" aria-label="Images with button success">
+      <button type="button" class="btn btn-success">I</button>
+      <button type="button" class="btn btn-success">K</button>
+      <button type="button" class="btn btn-success">K</button>
+    </div>  
+    <div class="btn-group" role="group" aria-label="warning button">
+      <button type="button" class="btn btn-warning">B</button>
+      <button type="button" class="btn btn-warning">I</button>
+    </div>
+    <div class="btn-group" role="group" aria-label="danger button">
+      <button type="button" class="btn btn-danger">N</button>
+    </div>
+  </div>
+    <br>
+    <div class="container">
+      <div class="dropdown">
+      <button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" type="button">Button</button>
+      <div class="dropdown-menu">
+      <a class="dropdown-item" href="basic.html">Basic</a>
+      <a class="dropdown-item" href="advanced.html">Advanced</a>
+      </div>
+      </div>
+      </div>
+      <br>
+      <br>
 
+      <div class="container">
+        <form action="">
+            <div class="form-group">
+                <label for="plantEmail" class="form-label">Email  Address</label>
+                <input type="email" class="form-control" id="plantEmail" 
+                aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="form-group">
+                <label for="plantInput" class="form-label">Plant</label>
+                <input type="text" class="form-control" id="plantInput" 
+                placeholder="Enter your plant">
+            </div>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="plantCheck">
+                <label class="form-check-label" for="plantsCheck">Sign up for newsletter?</label>
+            </div>
+            <button class="btn btn-primary" type="submit">Submit</button>
+        </form>
+    </div>
+    <br>
+    <br>
+    <div class="container">
+      <div class="row">
+          <div class="col-md">
+              <div class="card" style="width: 20rem;">
+                  <img src="Indianpink.jpg" class="card-img-top" alt="Indian pink">
+                  <div class="card-body">
+                      <h5 class="card-title">Indian pink</h5>
+                      <p class="card-text">
+                        Indian pink refers to several different wildflowers in the United States:
+    
+                              Lobelia, a genus in the family Campanulaceae
+                      </p>
+                      <a href="https://en.wikipedia.org/wiki/Indian_pink" class="btn btn-primary">Read More</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md">
+              <div class="card" style="width: 20rem;">
+                  <img src="Kaffirlily.jpg" class="card-img-top" alt="Kaffir lily">
+                  <div class="card-body">
+                      <h5 class="card-title">Kaffir lily</h5>
+                      <p class="card-text">
+                          Kaffir lily is a common name which may refer to the following ornamental plants:
+    
+                                Clivia miniata in the family Amaryllidaceae
+                      </p>
+                      <a href="https://en.wikipedia.org/wiki/Kaffir_lily" class="btn btn-primary">Read More</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md">
+              <div class="card" style="width: 20rem;">
+                  <img src="Kangaroopaw.jpg" class="card-img-top" alt="Kangaroopaw">
+                  <div class="card-body">
+                      <h5 class="card-title">Kangaroopaw</h5>
+                      <p class="card-text">
+                        Kangaroo paw is the common name for a number of species, 
+                         in two genera of the family Haemodoraceae, that are native to the south-west
+                        of Western Australia. 
+                      </p>
+                      <a href="https://en.wikipedia.org/wiki/Kangaroo_paw" class="btn btn-primary">Read More</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+    
+    <br>
+    <br> 
 </body>
 </html>
